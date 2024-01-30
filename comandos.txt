@@ -1,0 +1,11 @@
+npx @nestjs/cli new loja-crud
+npm run start:dev
+
+arquivos apagados:
+app.controller.spec.ts
+app.controller.ts
+app.service.ts
+test/app.e2e-spec.ts
+npm i -D @types/uuid
+docker compose up -d
+npm install @nestjs/typeorm typeorm
